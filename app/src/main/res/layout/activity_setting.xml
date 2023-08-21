@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".activity.Setting_Activity">
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <RelativeLayout
+            android:id="@+id/back_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_back">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/barlow_bold"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="#CDCBD8"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/title_temp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_toLeftOf="@+id/title"
+            android:layout_centerVertical="true"
+            android:src="@drawable/img_left"
+            android:layout_width="90dp"
+            android:layout_height="12dp"/>
+        <TextView
+            android:paddingBottom="4dp"
+            android:id="@+id/title"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:fontFamily="@font/barlow_bold"
+            android:text="SETTING"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <ImageView
+            android:layout_toRightOf="@+id/title"
+            android:layout_centerVertical="true"
+            android:src="@drawable/img_right"
+            android:layout_width="90dp"
+            android:layout_height="12dp"/>
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_above="@+id/native_ads1"
+        android:layout_below="@+id/title_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <LinearLayout
+               android:layout_marginLeft="40dp"
+               android:layout_marginRight="40dp"
+               android:orientation="vertical"
+               android:id="@+id/native_ads"
+               android:layout_marginBottom="5dp"
+               android:layout_marginTop="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#153B87"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="10dp"
+                app:cardElevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="#fff"
+                        android:fontFamily="@font/barlow_semibold"
+                        android:textSize="20dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="CURRENT PACK DETAILS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="#CDCBD8"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"/>
+                    <RelativeLayout
+                        android:background="@drawable/step_bg"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="25dp">
+                        <TextView
+                            android:gravity="center"
+                            android:layout_centerVertical="true"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/karla_bold_medium"
+                            android:text="ELITEPASS"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="25dp"
+                            android:textColor="#fff"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/barlow_semibold"
+                            android:text="* Season 1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="25dp"
+                            android:textColor="#fff"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/barlow_semibold"
+                            android:text="* Season 2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="25dp"
+                            android:textColor="#fff"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/barlow_semibold"
+                            android:text="* Season 3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:background="@drawable/step_bg"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/karla_bold_medium"
+                            android:gravity="center"
+                            android:text="EMOTES"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13dp" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="25dp"
+                            android:textColor="#fff"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/barlow_semibold"
+                            android:text="* Thrones "
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="25dp"
+                            android:textColor="#fff"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/karla_regilar"
+                            android:text="* Car Emote"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="25dp"
+                            android:textColor="#fff"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/karla_regilar"
+                            android:text="* Applause 3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:background="@drawable/step_bg"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/karla_bold_medium"
+                            android:gravity="center"
+                            android:text="GUNE SKINS"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13dp" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/barlow_semibold"
+                            android:paddingLeft="25dp"
+                            android:text="* Thrones "
+                            android:textColor="#fff"
+                            android:textSize="13dp" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="25dp"
+                            android:textColor="#fff"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/barlow_semibold"
+                            android:text="* Car Emote"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="25dp"
+                            android:textColor="#fff"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/barlow_semibold"
+                            android:text="* Applause 3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:background="@drawable/step_bg"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/karla_bold_medium"
+                            android:gravity="center"
+                            android:text="RARE BUNDLES"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13dp" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="25dp"
+                            android:textColor="#fff"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/barlow_semibold"
+                            android:text="* Red Criminal "
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_marginBottom="40dp"
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:paddingLeft="25dp"
+                            android:textColor="#fff"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/barlow_semibold"
+                            android:text="* Yellow Criminal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#0E529A"
+                app:cardCornerRadius="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/remote_pack_btn"
+                    android:fontFamily="@font/barlow_bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:text="Remote All Pack"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/native_ads1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+</RelativeLayout>

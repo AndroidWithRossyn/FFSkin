@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ff.fff.game">
+
+    <application
+        android:name=".adsmanager.MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GameApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".activity.VPNActivity"
+            android:exported="false" />
+        <activity android:name=".activity.Thanks_activity" />
+        <activity android:name=".activity.Trending_activity" />
+        <activity android:name=".activity.StartActivity" />
+        <activity android:name=".activity.Gun_Activity" />
+        <activity android:name=".activity.Rare_Emote_Activity" />
+        <activity android:name=".activity.ProDress_Activity" />
+        <activity android:name=".activity.Setting_Activity" />
+        <activity android:name=".activity.How_to_Use_Activity" />
+        <activity android:name=".activity.RefreyActivity" />
+        <activity android:name=".activity.Option_Activity" />
+        <activity android:name=".activity.GameDetailsActivity" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

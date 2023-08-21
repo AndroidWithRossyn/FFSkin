@@ -1,0 +1,89 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/AdsSdk/src/main/res/drawable/background.xml" value="0.2105" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/AdsSdk/src/main/res/layout/installnewappdialog.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable-v24/background.xml" value="0.192" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable-v24/bg_retry.xml" value="0.2305" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable-v24/bg_white_corner_round.xml" value="0.192" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable/background.xml" value="0.192" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable/circle_gradient.xml" value="0.192" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable/circle_res.xml" value="0.1795" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable/extra_new.xml" value="0.192" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable/gb_ads_bgnew.xml" value="0.192" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable/ic_game.xml" value="0.192" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable/radius.xml" value="0.192" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/drawable/white.xml" value="0.1795" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_game.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_game_details.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_gun.xml" value="0.22" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_how_to_use.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_option.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_pro_dress.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_rare_emote.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_refrey.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_setting.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_start.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_thanks.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_trending.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_vpnactivity.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/activity_vpnmain.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/banner_medim_lay.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/banner_small_lay.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/dialog_retry.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/exit_dailog.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/installnewappdialog.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/lay_game.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/layout_country_list.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/layout_server_fragmnet.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/layout/vpn_dialog.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.214" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp(2)/GameApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.214" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/AdsSdk/src/main/res/drawable/install_btn.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/AdsSdk/src/main/res/drawable/install_btn_extra_dul.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/AdsSdk/src/main/res/layout/activity_ads_splash.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable-v24/gun__one_bg.xml" value="0.1615" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/background.xml" value="0.1615" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/border_black.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/circle_gradient.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/extra.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/game_bg.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/gb_circle.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/gun_bg.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/gun_three_bg.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/qureka_banner_bg.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/qureka_banner_one_bg.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/drawable/step_bg.xml" value="0.262" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_game.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_game_details.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_gun.xml" value="0.2" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_how_to_use.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_option.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_pro_dress.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_rare_emote.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_refrey.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_splash.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_start.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_thanks.xml" value="0.25" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/activity_trending.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/banner_medim_lay.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/banner_small_lay.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/exit_dailog.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/installnewappdialog.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/layout/lay_game.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Anil/AndroidStudioProjects/GameApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1615" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

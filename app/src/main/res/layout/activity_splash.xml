@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/splash_bg"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/BlurImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_bg" />
+    <View
+        android:id="@+id/title_bar"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/icon_btn"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/splash_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title_bar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+    <ImageView
+        android:id="@+id/titile_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/icon_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ff_heading" />
+    <RelativeLayout
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/titile_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.loadinganimation.LoadingAnimation
+           android:layout_centerInParent="true"
+            android:id="@+id/loadingAnim"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:elevation="10dp"
+            app:barType="@drawable/hour_glass"
+            app:boldText="false"
+            app:enlarge="5"
+            app:textColor="@color/white"
+            app:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
